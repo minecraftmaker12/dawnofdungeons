@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "scrollspeed",
+    "texture": "eeeeeeeeeeee",
     "customModelName": "Normal",
-    "name": "Scroll Of Speed",
+    "name": "Scroll Of Strength",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -29,11 +29,8 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "ScrollOfSpeedRightclickedOnBlock"
-    },
     "onRightClickedOnBlock": {
-      "name": "ScrollOfSpeedRightclickedOnBlock"
+      "name": "ScrollOfStrengthRightclickedOnBlock"
     },
     "hasDispenseBehavior": false,
     "isFood": true,
@@ -43,7 +40,7 @@
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
-    "animation": "none"
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

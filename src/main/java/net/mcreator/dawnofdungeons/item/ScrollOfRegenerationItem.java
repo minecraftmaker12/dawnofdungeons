@@ -14,12 +14,12 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 
-import net.mcreator.dawnofdungeons.procedures.ScrollOfSpeedRightclickedOnBlockProcedure;
+import net.mcreator.dawnofdungeons.procedures.ScrollOfRegenerationRightclickedOnBlockProcedure;
 
-public class ScrollOfSpeedItem extends Item {
-	public ScrollOfSpeedItem() {
+public class ScrollOfRegenerationItem extends Item {
+	public ScrollOfRegenerationItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON)
-				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(3f).alwaysEat()
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(3f)
 
 						.build()));
 	}
@@ -42,14 +42,14 @@ public class ScrollOfSpeedItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ScrollOfSpeedRightclickedOnBlockProcedure.execute(entity);
+		ScrollOfRegenerationRightclickedOnBlockProcedure.execute(entity);
 		return ar;
 	}
 
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
-		ScrollOfSpeedRightclickedOnBlockProcedure.execute(context.getPlayer());
+		ScrollOfRegenerationRightclickedOnBlockProcedure.execute(context.getPlayer());
 		return retval;
 	}
 }

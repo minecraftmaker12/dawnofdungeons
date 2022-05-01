@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "scrollspeed",
+    "texture": "aaaaaaaaaaaaaaa",
     "customModelName": "Normal",
-    "name": "Scroll Of Speed",
+    "name": "Scroll Of Regeneration",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
@@ -30,20 +30,20 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "ScrollOfSpeedRightclickedOnBlock"
+      "name": "ScrollOfRegenerationRightclickedOnBlock"
     },
     "onRightClickedOnBlock": {
-      "name": "ScrollOfSpeedRightclickedOnBlock"
+      "name": "ScrollOfRegenerationRightclickedOnBlock"
     },
     "hasDispenseBehavior": false,
     "isFood": true,
-    "nutritionalValue": 0,
+    "nutritionalValue": 4,
     "saturation": 3.0,
     "eatResultItem": {
       "value": ""
     },
     "isMeat": false,
-    "isAlwaysEdible": true,
+    "isAlwaysEdible": false,
     "animation": "none"
   }
 }

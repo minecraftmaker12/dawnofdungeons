@@ -19,17 +19,67 @@
     {
       "name": "ScrollOfSpeed",
       "type": "item",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll_of_speed"
+    },
+    {
+      "name": "ScrollOfRegenerationRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_regeneration_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfRegeneration",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_regeneration"
+    },
+    {
+      "name": "ScrollOfStrength",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_strength"
+    },
+    {
+      "name": "ScrollOfStrengthRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_strength_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.dawn_of_dungeons.scroll_of_speed": "Scroll Of Speed"
+      "item.dawn_of_dungeons.scroll_of_speed": "Scroll Of Speed",
+      "item.dawn_of_dungeons.scroll_of_regeneration": "Scroll Of Regeneration",
+      "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength"
     }
   },
   "foldersRoot": {
