@@ -1,0 +1,75 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 151,
+          "y": 70
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 257,
+          "y": 70
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 203,
+          "y": 49
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fuse",
+          "onClick": {
+            "name": "Fuseprocedure"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Fuse",
+          "x": 190,
+          "y": 70
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

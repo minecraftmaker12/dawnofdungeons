@@ -27,6 +27,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModItems;
+import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModEntities;
+import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,8 +46,9 @@ public class DawnOfDungeonsMod {
 	public DawnOfDungeonsMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		DawnOfDungeonsModBlocks.REGISTRY.register(bus);
 		DawnOfDungeonsModItems.REGISTRY.register(bus);
+		DawnOfDungeonsModEntities.REGISTRY.register(bus);
 
 	}
 

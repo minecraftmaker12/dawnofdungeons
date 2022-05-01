@@ -1,5 +1,15 @@
 {
   "item.dawn_of_dungeons.scroll_of_speed": "Scroll Of Speed",
+  "item.dawn_of_dungeons.scroll_of_the_healing_shield": "Scroll Of The Healing Shield",
+  "item.dawn_of_dungeons.scroll_of_the_ram_shield": "Scroll Of The Ram Shield",
+  "item.dawn_of_dungeons.scroll_of_draining": "Scroll Of Draining",
+  "block.dawn_of_dungeons.fusion_rift": "Fusion Rift",
+  "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
   "item.dawn_of_dungeons.scroll_of_regeneration": "Scroll Of Regeneration",
-  "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength"
+  "item.dawn_of_dungeons.scroll_of_knockback": "Scroll Of Knockback",
+  "item.dawn_of_dungeons.scroll_of_sonic_shielding": "Scroll Of Sonic Shielding",
+  "item.dawn_of_dungeons.projectile": "Projectile",
+  "item.dawn_of_dungeons.scroll_of_shielding": "Scroll Of Shielding",
+  "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength",
+  "item.dawn_of_dungeons.bullet": "Bullet"
 }

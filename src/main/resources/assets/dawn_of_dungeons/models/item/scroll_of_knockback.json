@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "dawn_of_dungeons:items/aaaaaa"
+  }
+}

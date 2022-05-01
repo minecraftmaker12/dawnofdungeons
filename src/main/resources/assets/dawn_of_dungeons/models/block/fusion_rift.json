@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dawn_of_dungeons:blocks/rift",
+    "up": "dawn_of_dungeons:blocks/rift",
+    "north": "dawn_of_dungeons:blocks/rift",
+    "east": "dawn_of_dungeons:blocks/rift",
+    "south": "dawn_of_dungeons:blocks/rift",
+    "west": "dawn_of_dungeons:blocks/rift",
+    "particle": "dawn_of_dungeons:blocks/rift"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "eeeeeeeea",
+    "customModelName": "Normal",
+    "name": "Scroll Of Draining",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 0.0,
+    "usageCount": 1,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "ScrollOfDrainingLivingEntityIsHitWithItem"
+    }
+  }
+}

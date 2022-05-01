@@ -71,6 +71,274 @@
           }
         ]
       }
+    },
+    {
+      "name": "ScrollOfShieldingRightclicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_shielding_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfShielding",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_shielding"
+    },
+    {
+      "name": "ScrollOfDrainingLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_draining_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfDraining",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_draining"
+    },
+    {
+      "name": "Bullet",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet"
+    },
+    {
+      "name": "Projectile",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "projectile"
+    },
+    {
+      "name": "ScrollOfKnockbackLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_knockback_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfKnockback",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_knockback"
+    },
+    {
+      "name": "ScrollOfSpeedyHealingRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_speedy_healing_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfSpeedyHealing",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_speedy_healing"
+    },
+    {
+      "name": "Fuseprocedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuseprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfSonicShieldingRightclicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_sonic_shielding_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfSonicShielding",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_sonic_shielding"
+    },
+    {
+      "name": "Fuse",
+      "type": "gui",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuse"
+    },
+    {
+      "name": "ScrollOfTheHealingShield",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_the_healing_shield"
+    },
+    {
+      "name": "ScrollOfTheHealingShieldRightclicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_the_healing_shield_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScrollOfTheRamShield",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_the_ram_shield"
+    },
+    {
+      "name": "ScrollOfTheRamShieldLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_of_the_ram_shield_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionRiftOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_rift_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FusionRift",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusion_rift"
     }
   ],
   "variable_elements": [],
@@ -78,8 +346,18 @@
   "language_map": {
     "en_us": {
       "item.dawn_of_dungeons.scroll_of_speed": "Scroll Of Speed",
+      "item.dawn_of_dungeons.scroll_of_the_healing_shield": "Scroll Of The Healing Shield",
+      "item.dawn_of_dungeons.scroll_of_the_ram_shield": "Scroll Of The Ram Shield",
+      "item.dawn_of_dungeons.scroll_of_draining": "Scroll Of Draining",
+      "block.dawn_of_dungeons.fusion_rift": "Fusion Rift",
+      "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
       "item.dawn_of_dungeons.scroll_of_regeneration": "Scroll Of Regeneration",
-      "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength"
+      "item.dawn_of_dungeons.scroll_of_knockback": "Scroll Of Knockback",
+      "item.dawn_of_dungeons.scroll_of_sonic_shielding": "Scroll Of Sonic Shielding",
+      "item.dawn_of_dungeons.projectile": "Projectile",
+      "item.dawn_of_dungeons.scroll_of_shielding": "Scroll Of Shielding",
+      "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength",
+      "item.dawn_of_dungeons.bullet": "Bullet"
     }
   },
   "foldersRoot": {
