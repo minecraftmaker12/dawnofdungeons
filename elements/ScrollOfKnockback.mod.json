@@ -8,13 +8,13 @@
     "name": "Scroll Of Knockback",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "MISC"
     },
     "toolType": "Special",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 2.0,
-    "enchantability": 2,
+    "enchantability": 0,
     "damageVsEntity": 0.0,
     "usageCount": 1,
     "blocksAffected": [],

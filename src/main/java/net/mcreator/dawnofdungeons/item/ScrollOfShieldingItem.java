@@ -18,7 +18,7 @@ import net.mcreator.dawnofdungeons.procedures.ScrollOfShieldingRightclickedProce
 
 public class ScrollOfShieldingItem extends Item {
 	public ScrollOfShieldingItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(3f).alwaysEat()
 
 						.build()));

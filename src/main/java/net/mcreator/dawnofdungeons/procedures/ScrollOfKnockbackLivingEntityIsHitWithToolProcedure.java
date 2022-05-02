@@ -10,7 +10,7 @@ public class ScrollOfKnockbackLivingEntityIsHitWithToolProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _ent_sa && !_ent_sa.level.isClientSide()) {
-			ProjectileEntity.shoot(_ent_sa.level, _ent_sa, _ent_sa.level.getRandom(), 1, 5, 5);
+			ProjectileEntity.shoot(_ent_sa.level, _ent_sa, _ent_sa.level.getRandom(), 2, 5, 5);
 		}
 	}
 }

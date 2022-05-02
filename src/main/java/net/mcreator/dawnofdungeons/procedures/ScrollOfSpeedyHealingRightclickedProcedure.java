@@ -10,7 +10,7 @@ public class ScrollOfSpeedyHealingRightclickedProcedure {
 			return;
 		if ((entity instanceof Player _plr ? _plr.getAbilities().getWalkingSpeed() : 0) == 2) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
+				_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 2));
 		}
 	}
 }

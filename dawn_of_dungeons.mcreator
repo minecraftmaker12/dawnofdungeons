@@ -189,22 +189,6 @@
       "registry_name": "scroll_of_speedy_healing"
     },
     {
-      "name": "Fuseprocedure",
-      "type": "procedure",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fuseprocedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "ScrollOfSonicShieldingRightclicked",
       "type": "procedure",
       "sortid": 12,
@@ -229,14 +213,6 @@
       "registry_name": "scroll_of_sonic_shielding"
     },
     {
-      "name": "Fuse",
-      "type": "gui",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fuse"
-    },
-    {
       "name": "ScrollOfTheHealingShield",
       "type": "item",
       "sortid": 14,
@@ -253,6 +229,10 @@
       "registry_name": "scroll_of_the_healing_shield_rightclicked",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -301,44 +281,60 @@
       }
     },
     {
-      "name": "FusionRiftOnBlockRightClicked",
-      "type": "procedure",
+      "name": "Scroll",
+      "type": "recipe",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_rift_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
+      "registry_name": "scroll"
     },
     {
-      "name": "FusionRift",
-      "type": "block",
-      "sortid": 18,
+      "name": "Scroll2",
+      "type": "recipe",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fusion_rift"
+      "registry_name": "scroll_2"
+    },
+    {
+      "name": "Scroll3",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_3"
+    },
+    {
+      "name": "Scroll4",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_4"
+    },
+    {
+      "name": "Scroll5",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_5"
+    },
+    {
+      "name": "Scroll6",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_6"
+    },
+    {
+      "name": "Trade",
+      "type": "villagertrade",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade"
     }
   ],
   "variable_elements": [],
@@ -349,9 +345,8 @@
       "item.dawn_of_dungeons.scroll_of_the_healing_shield": "Scroll Of The Healing Shield",
       "item.dawn_of_dungeons.scroll_of_the_ram_shield": "Scroll Of The Ram Shield",
       "item.dawn_of_dungeons.scroll_of_draining": "Scroll Of Draining",
-      "block.dawn_of_dungeons.fusion_rift": "Fusion Rift",
-      "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
       "item.dawn_of_dungeons.scroll_of_regeneration": "Scroll Of Regeneration",
+      "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
       "item.dawn_of_dungeons.scroll_of_knockback": "Scroll Of Knockback",
       "item.dawn_of_dungeons.scroll_of_sonic_shielding": "Scroll Of Sonic Shielding",
       "item.dawn_of_dungeons.projectile": "Projectile",

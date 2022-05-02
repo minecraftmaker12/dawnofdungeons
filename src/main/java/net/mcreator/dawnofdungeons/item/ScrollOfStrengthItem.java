@@ -13,7 +13,7 @@ import net.mcreator.dawnofdungeons.procedures.ScrollOfStrengthRightclickedOnBloc
 
 public class ScrollOfStrengthItem extends Item {
 	public ScrollOfStrengthItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(3f)
 
 						.build()));

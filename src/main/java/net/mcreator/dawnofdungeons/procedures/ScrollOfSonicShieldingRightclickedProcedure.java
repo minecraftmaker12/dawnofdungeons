@@ -10,9 +10,10 @@ public class ScrollOfSonicShieldingRightclickedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof Player _plr ? _plr.getAbilities().getWalkingSpeed() : 0) == 2) {
+		if ((entity instanceof Player _plr ? _plr.getAbilities().getWalkingSpeed() : 0) == 2
+				|| (entity instanceof Player _plr ? _plr.getAbilities().getWalkingSpeed() : 0) == 3) {
 			if (entity instanceof LivingEntity _entity)
-				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 480, 1, (false), (false)));
+				_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 480, 2, (false), (false)));
 		}
 	}
 }

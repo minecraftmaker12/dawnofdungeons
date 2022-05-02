@@ -9,7 +9,7 @@ public class ScrollOfDrainingLivingEntityIsHitWithItemProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (sourceentity instanceof LivingEntity _entity)
-			_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 1));
-		entity.hurt(DamageSource.GENERIC, 1);
+			_entity.setHealth((float) ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 2));
+		entity.hurt(DamageSource.GENERIC, 2);
 	}
 }

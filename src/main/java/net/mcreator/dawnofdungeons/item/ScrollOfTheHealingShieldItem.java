@@ -15,7 +15,7 @@ import net.mcreator.dawnofdungeons.procedures.ScrollOfTheHealingShieldRightclick
 
 public class ScrollOfTheHealingShieldItem extends Item {
 	public ScrollOfTheHealingShieldItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(10).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
 
 						.build()));
@@ -34,7 +34,7 @@ public class ScrollOfTheHealingShieldItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ScrollOfTheHealingShieldRightclickedProcedure.execute(world, x, y, z);
+		ScrollOfTheHealingShieldRightclickedProcedure.execute(world, x, y, z, entity);
 		return ar;
 	}
 }

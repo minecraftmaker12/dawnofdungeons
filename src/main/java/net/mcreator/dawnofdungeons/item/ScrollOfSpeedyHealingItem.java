@@ -16,7 +16,7 @@ import net.mcreator.dawnofdungeons.procedures.ScrollOfSpeedyHealingRightclickedP
 
 public class ScrollOfSpeedyHealingItem extends Item {
 	public ScrollOfSpeedyHealingItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(6f).alwaysEat()
 
 						.build()));

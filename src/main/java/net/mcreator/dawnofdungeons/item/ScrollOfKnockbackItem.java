@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ScrollOfKnockbackItem extends Item {
 	public ScrollOfKnockbackItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(1));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1));
 	}
 
 	@Override
@@ -54,7 +54,7 @@ public class ScrollOfKnockbackItem extends Item {
 
 	@Override
 	public int getEnchantmentValue() {
-		return 2;
+		return 0;
 	}
 
 	@Override

@@ -8,10 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.dawnofdungeons.item.ScrollOfTheRamShieldItem;
 import net.mcreator.dawnofdungeons.item.ScrollOfTheHealingShieldItem;
@@ -46,9 +43,4 @@ public class DawnOfDungeonsModItems {
 			() -> new ScrollOfTheHealingShieldItem());
 	public static final RegistryObject<Item> SCROLL_OF_THE_RAM_SHIELD = REGISTRY.register("scroll_of_the_ram_shield",
 			() -> new ScrollOfTheRamShieldItem());
-	public static final RegistryObject<Item> FUSION_RIFT = block(DawnOfDungeonsModBlocks.FUSION_RIFT, CreativeModeTab.TAB_BUILDING_BLOCKS);
-
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
-	}
 }

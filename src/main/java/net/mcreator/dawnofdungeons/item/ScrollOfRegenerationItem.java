@@ -18,7 +18,7 @@ import net.mcreator.dawnofdungeons.procedures.ScrollOfRegenerationRightclickedOn
 
 public class ScrollOfRegenerationItem extends Item {
 	public ScrollOfRegenerationItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(1).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(3f)
 
 						.build()));
