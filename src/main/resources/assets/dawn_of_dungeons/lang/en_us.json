@@ -7,8 +7,10 @@
   "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
   "item.dawn_of_dungeons.scroll_of_knockback": "Scroll Of Knockback",
   "item.dawn_of_dungeons.scroll_of_sonic_shielding": "Scroll Of Sonic Shielding",
+  "entity.dawn_of_dungeons.dwarf": "Dwarf",
   "item.dawn_of_dungeons.projectile": "Projectile",
   "item.dawn_of_dungeons.scroll_of_shielding": "Scroll Of Shielding",
   "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength",
-  "item.dawn_of_dungeons.bullet": "Bullet"
+  "item.dawn_of_dungeons.bullet": "Bullet",
+  "item.dawn_of_dungeons.dwarf_spawn_egg": "Dwarf Spawn Egg"
 }

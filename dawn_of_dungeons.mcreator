@@ -335,6 +335,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "trade"
+    },
+    {
+      "name": "Dwarf",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwarf"
+    },
+    {
+      "name": "Dwarff",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dwarff"
+    },
+    {
+      "name": "Forge",
+      "type": "structure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge"
     }
   ],
   "variable_elements": [],
@@ -349,10 +373,12 @@
       "item.dawn_of_dungeons.scroll_of_speedy_healing": "Scroll Of Speedy Healing",
       "item.dawn_of_dungeons.scroll_of_knockback": "Scroll Of Knockback",
       "item.dawn_of_dungeons.scroll_of_sonic_shielding": "Scroll Of Sonic Shielding",
+      "entity.dawn_of_dungeons.dwarf": "Dwarf",
       "item.dawn_of_dungeons.projectile": "Projectile",
       "item.dawn_of_dungeons.scroll_of_shielding": "Scroll Of Shielding",
       "item.dawn_of_dungeons.scroll_of_strength": "Scroll Of Strength",
-      "item.dawn_of_dungeons.bullet": "Bullet"
+      "item.dawn_of_dungeons.bullet": "Bullet",
+      "item.dawn_of_dungeons.dwarf_spawn_egg": "Dwarf Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -377,5 +403,5 @@
     "modElementsPackage": "net.mcreator.dawnofdungeons",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200118711
+  "mcreatorVersion": 202200120510
 }

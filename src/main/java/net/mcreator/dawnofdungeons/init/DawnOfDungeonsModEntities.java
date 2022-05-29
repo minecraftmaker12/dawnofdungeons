@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.dawnofdungeons.entity.ProjectileEntity;
+import net.mcreator.dawnofdungeons.entity.DwarfEntity;
 import net.mcreator.dawnofdungeons.DawnOfDungeonsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,6 +26,11 @@ public class DawnOfDungeonsModEntities {
 	public static final RegistryObject<EntityType<ProjectileEntity>> PROJECTILE = register("projectile_projectile",
 			EntityType.Builder.<ProjectileEntity>of(ProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(ProjectileEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<DwarfEntity>> DWARF = register("dwarf",
+			EntityType.Builder.<DwarfEntity>of(DwarfEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(DwarfEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -33,10 +39,12 @@ public class DawnOfDungeonsModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			DwarfEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(DWARF.get(), DwarfEntity.createAttributes().build());
 	}
 }

@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModItems;
+import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModFeatures;
 import net.mcreator.dawnofdungeons.init.DawnOfDungeonsModEntities;
 
 import java.util.function.Supplier;
@@ -48,6 +49,8 @@ public class DawnOfDungeonsMod {
 
 		DawnOfDungeonsModItems.REGISTRY.register(bus);
 		DawnOfDungeonsModEntities.REGISTRY.register(bus);
+
+		DawnOfDungeonsModFeatures.REGISTRY.register(bus);
 
 	}
 

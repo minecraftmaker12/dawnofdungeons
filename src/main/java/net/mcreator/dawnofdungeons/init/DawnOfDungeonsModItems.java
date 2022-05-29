@@ -7,8 +7,10 @@ package net.mcreator.dawnofdungeons.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
 
 import net.mcreator.dawnofdungeons.item.ScrollOfTheRamShieldItem;
 import net.mcreator.dawnofdungeons.item.ScrollOfTheHealingShieldItem;
@@ -43,4 +45,6 @@ public class DawnOfDungeonsModItems {
 			() -> new ScrollOfTheHealingShieldItem());
 	public static final RegistryObject<Item> SCROLL_OF_THE_RAM_SHIELD = REGISTRY.register("scroll_of_the_ram_shield",
 			() -> new ScrollOfTheRamShieldItem());
+	public static final RegistryObject<Item> DWARF = REGISTRY.register("dwarf_spawn_egg",
+			() -> new ForgeSpawnEggItem(DawnOfDungeonsModEntities.DWARF, -10066330, -26317, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 }
